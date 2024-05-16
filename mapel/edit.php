@@ -19,10 +19,10 @@ $r=mysqli_fetch_assoc($result)
         <div class="card-body">
             <form action="?m=mapel&s=update" method="post">
                 <div class="mb-3">
-                    <input type="text" name="subject" value="<?= $r['subject']; ?>" class="form-control" placeholder="Nama mapel" required autofocus>
+                    <input type="text" name="subject" value="<?= $r['mata_pelajaran']; ?>" class="form-control" placeholder="Nama mapel" required autofocus>
                 </div>
                 <div class="mb-3">
-                    <input type="number" name="hour" value="<?= $r['hour']; ?>" class="form-control" placeholder="Kapasitas" required>
+                    <input type="number" name="hour" value="<?= $r['jam']; ?>" class="form-control" placeholder="Kapasitas" required>
                 </div>
 
                 <div class="mb-3">
