@@ -5,7 +5,7 @@ if (isset($_POST['update'])) {
     $mata_pelajaran = $_POST['mata_pelajaran'];
     $jam = $_POST['jam'];
 
-    $sql = "UPDATE mata_pelajaran SET mata_pelajaran='$mata_pelajaran', jam='$jam'";
+    $sql = "UPDATE mata_pelajaran SET mata_pelajaran='$mata_pelajaran', jam='$jam' WHERE id=$id";
     $result = mysqli_query($con, $sql);
 
 

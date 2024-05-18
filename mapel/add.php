@@ -11,10 +11,10 @@
             <div class="card-body">
                 <form action="?m=mapel&s=save" method="post">
                     <div class="mb-3">
-                        <input type="text" name="subject" class="form-control" placeholder="Nama Mapel" required autofocus>
+                        <input type="text" name="mata_pelajaran" class="form-control" placeholder="Nama Mapel" required autofocus>
                     </div>
                     <div class="mb-3">
-                        <input type="number" name="hour" class="form-control" placeholder="Jam Pelajaran" required>
+                        <input type="number" name="jam" class="form-control" placeholder="Jam Pelajaran" required>
                     </div>
                     <div class="mb-3">
                         <input type="reset" class="btn btn-secondary">&nbsp;
